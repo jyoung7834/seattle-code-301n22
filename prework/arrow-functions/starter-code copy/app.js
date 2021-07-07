@@ -215,8 +215,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//   "this" returns a reference to the Student object that is undefined
+//   "this" returns a reference to the Student object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//    "this" returns a reference to a window object that is undefined
+//    "this" returns a reference to a window object that
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Arrow Functions don't rebind the "this" keyword.
