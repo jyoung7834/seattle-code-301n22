@@ -107,7 +107,6 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 // Write your solutions on a single line wherever possible.
 
 
-
 let sum = function(a, b, c, d) {
   return a + b + c + d;
 };
@@ -216,7 +215,7 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//   "this" returns a reference to the Student object object that is undefined
+//   "this" returns a reference to the Student object that is undefined
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //    "this" returns a reference to a window object that is undefined
 // 3. Explain why "this" is different when an arrow function is used.
